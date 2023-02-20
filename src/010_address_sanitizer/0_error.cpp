@@ -2,7 +2,6 @@
 // By: Nick from CoffeeBeforeArch
 
 #include <array>
-
 #include <iostream>
 
 int main() {
