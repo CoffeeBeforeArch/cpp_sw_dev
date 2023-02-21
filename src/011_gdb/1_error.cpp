@@ -15,14 +15,13 @@ int main() {
   while (true) {
     // Get a divisor
     auto divisor = dist(mt);
-    
+
     // Add some value to sum
     // This has a bug! Our random number generator can return 0!
     sum += 10 % divisor;
 
     // Break out with some condition
-    if (sum > 200)
-      break;
+    if (sum > 200) break;
   }
 
   // Print out sum
